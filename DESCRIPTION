@@ -1,0 +1,13 @@
+Package: sfcensus
+Title: US Census Spatial Data
+Version: 0.1.0
+Authors@R: 
+    person(given = "Matthew",
+           family = "Van Hala",
+           role = c("aut", "cre"),
+           email = "matthew.vanhala@gmail.com")
+Description: sf objects for various US Census boundaries
+    (states, counties, Zip Code Tabulation Areas, etc.)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
