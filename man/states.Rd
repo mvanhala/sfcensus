@@ -7,9 +7,9 @@
 \format{
 A data frame with 51 rows and 3 variables:
 \describe{
-  \item{state_fips}{FIPS code}
-  \item{state_name}{name of the state}
-  \item{state_abb}{two-letter USPS state abbreviation}
+\item{state_fips}{FIPS code}
+\item{state_name}{name of the state}
+\item{state_abb}{two-letter USPS state abbreviation}
 }
 }
 \source{

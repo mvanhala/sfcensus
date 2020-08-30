@@ -13,7 +13,7 @@ NULL
 #'   \item{state_name}{name of the state}
 #'   \item{state_abb}{two-letter USPS state abbreviation}
 #' }
-#' @source \url{https://www.census.gov/geographies/reference-files/2019/demo/popest/2019-fips.html}
+#' @source <https://www.census.gov/geographies/reference-files/2019/demo/popest/2019-fips.html>
 "states"
 
 #' County names and FIPS codes
@@ -28,7 +28,7 @@ NULL
 #'   \item{county_fips}{three-digit county FIPS code}
 #'   \item{county_name}{name of the county}
 #' }
-#' @source \url{https://www.census.gov/geographies/reference-files/2019/demo/popest/2019-fips.html}
+#' @source <https://www.census.gov/geographies/reference-files/2019/demo/popest/2019-fips.html>
 "counties"
 
 
@@ -36,7 +36,7 @@ NULL
 #'
 #' A data frame with ZCTA to county relationships as of the 2010 Census.
 #' There is a separate row for each ZCTA-county intersection record.
-#' See \url{https://www2.census.gov/geo/pdfs/maps-data/data/rel/explanation_zcta_county_rel_10.pdf}
+#' See <https://www2.census.gov/geo/pdfs/maps-data/data/rel/explanation_zcta_county_rel_10.pdf>
 #' for additional details.
 #'
 #' @format A data frame with 44,198 rows and 13 variables:
@@ -55,7 +55,7 @@ NULL
 #'   \item{subset_area_pct}{percentage of total area represented by record}
 #'   \item{subset_area_land_pct}{percentage of total land area represented by record}
 #' }
-#' @source \url{https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html}
+#' @source <https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html>
 "zcta_county_rel"
 
 #' sf data frame of US states
@@ -71,7 +71,7 @@ NULL
 #'   \item{state_abb}{two-digit USPS abbreviation}
 #'   \item{geometry}{an sf geometry column with polygon data}
 #' }
-#' @source \url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+#' @source <https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html>
 "state_sf"
 
 #' sf data frame of US counties
@@ -89,7 +89,7 @@ NULL
 #'   \item{county_name}{name of the county}
 #'   \item{geometry}{an sf geometry column with polygon data}
 #' }
-#' @source \url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+#' @source <https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html>
 "county_sf"
 
 #' sf data frame of US Zip Code Tabulation Areas (ZCTA)
@@ -104,7 +104,7 @@ NULL
 #'   \item{state_abb}{two-digit USPS abbreviation of state containing largest percentage of ZCTA population}
 #'   \item{geometry}{an sf geometry column with polygon data}
 #' }
-#' @source \url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+#' @source <https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html>
 "zcta_sf"
 
 
@@ -121,7 +121,7 @@ NULL
 #'   \item{name}{place name}
 #'   \item{geometry}{an sf geometry column with polygon data}
 #' }
-#' @source \url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+#' @source <https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html>
 "place_sf"
 
 

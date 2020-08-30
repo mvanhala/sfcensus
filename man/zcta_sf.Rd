@@ -7,9 +7,9 @@
 \format{
 An sf data frame with 32,989 rows and 5 variables:
 \describe{
-  \item{zcta}{five-digit ZCTA code}
-  \item{state_abb}{two-digit USPS abbreviation of state containing largest percentage of ZCTA population}
-  \item{geometry}{an sf geometry column with polygon data}
+\item{zcta}{five-digit ZCTA code}
+\item{state_abb}{two-digit USPS abbreviation of state containing largest percentage of ZCTA population}
+\item{geometry}{an sf geometry column with polygon data}
 }
 }
 \source{

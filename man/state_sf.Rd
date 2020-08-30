@@ -7,10 +7,10 @@
 \format{
 An sf data frame with 51 rows and 4 variables:
 \describe{
-  \item{state_fips}{two-digit state FIPS code}
-  \item{state_name}{name of the state}
-  \item{state_abb}{two-digit USPS abbreviation}
-  \item{geometry}{an sf geometry column with polygon data}
+\item{state_fips}{two-digit state FIPS code}
+\item{state_name}{name of the state}
+\item{state_abb}{two-digit USPS abbreviation}
+\item{geometry}{an sf geometry column with polygon data}
 }
 }
 \source{

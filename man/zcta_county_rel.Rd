@@ -7,19 +7,19 @@
 \format{
 A data frame with 44,198 rows and 13 variables:
 \describe{
-  \item{zcta}{five-digit ZCTA code}
-  \item{state_abb}{two-letter USPS state abbreviation}
-  \item{state_fips}{two-digit state FIPS code}
-  \item{cty_fips}{three-digit county FIPS code}
-  \item{zcta_pop}{total population}
-  \item{zcta_area}{total area, in square meters}
-  \item{zcta_land_area}{total land area, in square meters}
-  \item{subset_pop}{population for relationship record}
-  \item{subset_area}{area for relationship record, in square meters}
-  \item{subset_area_land}{land area for relationship record, in square meters}
-  \item{subset_pop_pct}{percentage of total population represented by record}
-  \item{subset_area_pct}{percentage of total area represented by record}
-  \item{subset_area_land_pct}{percentage of total land area represented by record}
+\item{zcta}{five-digit ZCTA code}
+\item{state_abb}{two-letter USPS state abbreviation}
+\item{state_fips}{two-digit state FIPS code}
+\item{cty_fips}{three-digit county FIPS code}
+\item{zcta_pop}{total population}
+\item{zcta_area}{total area, in square meters}
+\item{zcta_land_area}{total land area, in square meters}
+\item{subset_pop}{population for relationship record}
+\item{subset_area}{area for relationship record, in square meters}
+\item{subset_area_land}{land area for relationship record, in square meters}
+\item{subset_pop_pct}{percentage of total population represented by record}
+\item{subset_area_pct}{percentage of total area represented by record}
+\item{subset_area_land_pct}{percentage of total land area represented by record}
 }
 }
 \source{

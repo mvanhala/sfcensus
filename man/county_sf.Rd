@@ -7,12 +7,12 @@
 \format{
 An sf data frame with 3,142 rows and 6 variables:
 \describe{
-  \item{fips}{five-digits county FIPS code (i.e., concatenation of state and county FIPS codes)}
-  \item{state_fips}{two-digit state FIPS code}
-  \item{county_fips}{three-digit county FIPS code}
-  \item{state_abb}{two-digit USPS abbreviation}
-  \item{county_name}{name of the county}
-  \item{geometry}{an sf geometry column with polygon data}
+\item{fips}{five-digits county FIPS code (i.e., concatenation of state and county FIPS codes)}
+\item{state_fips}{two-digit state FIPS code}
+\item{county_fips}{three-digit county FIPS code}
+\item{state_abb}{two-digit USPS abbreviation}
+\item{county_name}{name of the county}
+\item{geometry}{an sf geometry column with polygon data}
 }
 }
 \source{

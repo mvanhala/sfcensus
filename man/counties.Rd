@@ -7,10 +7,10 @@
 \format{
 A data frame with 3,142 rows and 4 variables:
 \describe{
-  \item{state_abb}{two-letter USPS state abbreviation}
-  \item{state_fips}{two-digit state FIPS code}
-  \item{county_fips}{three-digit county FIPS code}
-  \item{county_name}{name of the county}
+\item{state_abb}{two-letter USPS state abbreviation}
+\item{state_fips}{two-digit state FIPS code}
+\item{county_fips}{three-digit county FIPS code}
+\item{county_name}{name of the county}
 }
 }
 \source{
