@@ -9,6 +9,8 @@ Authors@R:
 Description: sf objects for various US Census boundaries
     (states, counties, Zip Code Tabulation Areas, etc.)
 License: GPL-3
+URL: https://github.com/mvanhala/sfcensus
+BugReports: https://github.com/mvanhala/sfcensus/issues
 Imports: 
     sf,
     tibble
