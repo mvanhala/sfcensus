@@ -13,13 +13,13 @@ A data frame with 51 rows and 3 variables:
 }
 }
 \source{
-\url{https://www.census.gov/geographies/reference-files/2019/demo/popest/2019-fips.html}
+\url{https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html}
 }
 \usage{
 states
 }
 \description{
 A data frame containing the names, USPS abbreviations, and
-FIPS codes of the 50 states and DC for the year 2019
+FIPS codes of the 50 states and DC for the year 2020
 }
 \keyword{datasets}

@@ -5,22 +5,23 @@
 \alias{counties}
 \title{County names and FIPS codes}
 \format{
-A data frame with 3,142 rows and 4 variables:
+A data frame with 3,143 rows and 5 variables:
 \describe{
 \item{state_abb}{two-letter USPS state abbreviation}
 \item{state_fips}{two-digit state FIPS code}
-\item{county_fips}{three-digit county FIPS code}
-\item{county_name}{name of the county}
+\item{cty_fips}{three-digit county FIPS code}
+\item{cty_name}{name of the county}
+\item{cty_desc}{county entity type}
 }
 }
 \source{
-\url{https://www.census.gov/geographies/reference-files/2019/demo/popest/2019-fips.html}
+\url{https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html}
 }
 \usage{
 counties
 }
 \description{
 A data frame containing the names and FIPS codes of counties
-in the fifty US states and DC for the year 2019
+in the fifty US states and DC for the year 2020
 }
 \keyword{datasets}

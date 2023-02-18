@@ -5,33 +5,26 @@
 \alias{zcta_county_rel}
 \title{ZCTA-county relationship}
 \format{
-A data frame with 44,198 rows and 13 variables:
+A data frame with 46,690 rows and 6 variables:
 \describe{
 \item{zcta}{five-digit ZCTA code}
 \item{state_abb}{two-letter USPS state abbreviation}
 \item{state_fips}{two-digit state FIPS code}
 \item{cty_fips}{three-digit county FIPS code}
-\item{zcta_pop}{total population}
-\item{zcta_area}{total area, in square meters}
-\item{zcta_land_area}{total land area, in square meters}
-\item{subset_pop}{population for relationship record}
-\item{subset_area}{area for relationship record, in square meters}
 \item{subset_area_land}{land area for relationship record, in square meters}
-\item{subset_pop_pct}{percentage of total population represented by record}
-\item{subset_area_pct}{percentage of total area represented by record}
 \item{subset_area_land_pct}{percentage of total land area represented by record}
 }
 }
 \source{
-\url{https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html}
+\url{https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.2020.html#list-tab-E7GGIXHXQT6PO7VYWR}
 }
 \usage{
 zcta_county_rel
 }
 \description{
-A data frame with ZCTA to county relationships as of the 2010 Census.
+A data frame with ZCTA to county relationships as of the 2020 Census.
 There is a separate row for each ZCTA-county intersection record.
-See \url{https://www2.census.gov/geo/pdfs/maps-data/data/rel/explanation_zcta_county_rel_10.pdf}
+See \url{https://www2.census.gov/geo/pdfs/maps-data/data/rel2020/zcta520/explanation_tab20_zcta520_county20_natl.pdf}
 for additional details.
 }
 \keyword{datasets}

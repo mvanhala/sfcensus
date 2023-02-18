@@ -14,14 +14,14 @@ An sf data frame with 51 rows and 4 variables:
 }
 }
 \source{
-\url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+\url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2020.html}
 }
 \usage{
 state_sf
 }
 \description{
 An sf data frame of the fifty US states and DC.
-It is the 2019 cartographic boundary file at resolution 20M.
+It is the 2020 cartographic boundary file at resolution 20M.
 The EPSG is 4326.
 }
 \keyword{datasets}

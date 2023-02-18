@@ -5,23 +5,25 @@
 \alias{place_sf}
 \title{sf data frame of places}
 \format{
-An sf data frame with 29,321 rows and 4 variables:
+An sf data frame with 31,617 rows and 6 variables:
 \describe{
 \item{state_fips}{two-digit state FIPS code}
 \item{state_abb}{two-digit USPS abbreviation}
-\item{name}{place name}
+\item{place_fips}{five-digit place FIPS code}
+\item{place_name}{place name}
+\item{place_desc}{place entity type}
 \item{geometry}{an sf geometry column with polygon data}
 }
 }
 \source{
-\url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+\url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2020.html}
 }
 \usage{
 place_sf
 }
 \description{
 An sf data frame of places in the fifty US states and DC.
-It is the 2019 cartographic boundary file at resolution 500K.
+It is the 2020 cartographic boundary file at resolution 500K.
 The EPSG is 4326.
 }
 \keyword{datasets}

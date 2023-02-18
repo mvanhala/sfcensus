@@ -5,7 +5,7 @@
 \alias{zcta_sf}
 \title{sf data frame of US Zip Code Tabulation Areas (ZCTA)}
 \format{
-An sf data frame with 32,989 rows and 5 variables:
+An sf data frame with 33,642 rows and 3 variables:
 \describe{
 \item{zcta}{five-digit ZCTA code}
 \item{state_abb}{two-digit USPS abbreviation of state containing largest percentage of ZCTA population}
@@ -13,14 +13,14 @@ An sf data frame with 32,989 rows and 5 variables:
 }
 }
 \source{
-\url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html}
+\url{https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2020.html}
 }
 \usage{
 zcta_sf
 }
 \description{
 An sf data frame of ZCTAs in the fifty US states and DC.
-It is the 2019 cartographic boundary file at resolution 500K.
+It is the 2020 cartographic boundary file at resolution 500K.
 The EPSG is 4326.
 }
 \keyword{datasets}
